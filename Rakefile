@@ -41,4 +41,4 @@ namespace :spec do
 end
 
 desc 'Default: run unit tests.'
-task :default => ['spec:appraisal:cleanup', 'spec:appraisal:install', 'spec:unit']
+task :default => ['spec:unit']
