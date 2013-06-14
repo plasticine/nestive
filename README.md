@@ -1,4 +1,4 @@
-# Nestive [![Build Status](https://travis-ci.org/rwz/nestive.png)](https://travis-ci.org/rwz/nestive) [![Code Climate](https://codeclimate.com/github/rwz/nestive.png)](https://codeclimate.com/github/rwz/nestive)
+# Nestive [![Build Status](https://travis-ci.org/plasticine/nestive.png)](https://travis-ci.org/plasticine/nestive) [![Code Climate](https://codeclimate.com/github/plasticine/nestive.png)](https://codeclimate.com/github/plasticine/nestive)
 ## A Nested Inheritable Layouts Helpers for Rails
 
 
