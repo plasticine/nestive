@@ -4,6 +4,9 @@ source 'https://rubygems.org'
 gemspec
 
 group :test do
+  gem 'simplecov', require: false
+  gem 'cane'
+  gem 'appraisal'
   gem 'combustion', '~> 0.4.0'
   gem 'rspec-rails', '~> 2.13'
 end

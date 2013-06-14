@@ -20,4 +20,10 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.add_dependency 'rails', '>= 3.0.0'
+
+  s.add_dependency 'simplecov'
+  s.add_dependency 'cane'
+  s.add_dependency 'appraisal'
+  s.add_dependency 'combustion', '~> 0.4.0'
+  s.add_dependency 'rspec-rails', '~> 2.13'
 end
