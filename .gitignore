@@ -6,4 +6,3 @@ Gemfile.lock
 .bundle/
 bin/
 coverage/
-gemfiles/*.lock

@@ -39,3 +39,6 @@ namespace :spec do
     rdoc.rdoc_files.include('lib/**/*.rb')
   end
 end
+
+desc 'Default: run unit tests.'
+task :default => [:clean, 'appraisal:install', 'spec:unit']
