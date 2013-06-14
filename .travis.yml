@@ -1,4 +1,4 @@
-script: "rake spec:unit"
+script: "rake spec:unit COVERAGE=true"
 rvm:
   - 2.0.0
   - 1.9.3
