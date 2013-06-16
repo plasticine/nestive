@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gemspec
 
 group :test do
+  gem 'rake'
   gem 'simplecov', require: false
   gem 'cane'
   gem 'appraisal'
