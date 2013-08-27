@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  match ':controller/:action', via: :get
+  get ':controller/:action'
 end
