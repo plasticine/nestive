@@ -1,4 +1,4 @@
-puts "[SIMPLECOV] enabled"
+puts "[Simplecov] enabled"
 require 'simplecov'
 
 class SimpleCov::Formatter::QualityFormatter
@@ -11,3 +11,5 @@ class SimpleCov::Formatter::QualityFormatter
 end
 
 SimpleCov.formatter = SimpleCov::Formatter::QualityFormatter
+
+SimpleCov.start 'rails'

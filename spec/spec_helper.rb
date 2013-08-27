@@ -1,8 +1,8 @@
 ENV['RAILS_ENV'] ||= 'test'
-require_relative 'use_simplecov' if ENV['COVERAGE']
 
-require 'coveralls'
-Coveralls.wear! if ENV['COVERAGE']
+if ENV['COVERAGE']
+  require_relative (ENV['TRAVIS'] ? 'use_coveralls' : 'use_simplecov')
+end
 
 require 'bundler/setup'
 require 'rails'
