@@ -220,6 +220,12 @@ end
 * add `gem 'nestive', '~> 0.4'` to your Gemfile
 * run `bundle`
 
+
+## Developing
+
+* run `./script/bootstrap` to get set up
+* run `./script/cibuild` to run specs
+
 ## Compatibility
 
 Nestive should work properly with any Rails 3.*. It should probably work with 2.* too, but we don't have test coverage for this.
