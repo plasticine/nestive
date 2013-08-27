@@ -1,4 +1,4 @@
-puts "[Simplecov] enabled"
+puts "[SIMPLECOV] enabled"
 require 'simplecov'
 
 class SimpleCov::Formatter::QualityFormatter
@@ -11,7 +11,3 @@ class SimpleCov::Formatter::QualityFormatter
 end
 
 SimpleCov.formatter = SimpleCov::Formatter::QualityFormatter
-
-if suite_name = ENV["COVERAGE_GROUP"]
-  SimpleCov.command_name(suite_name)
-end
